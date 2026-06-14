@@ -11,7 +11,7 @@ function Signup() {
     const handleSignup = async (e) => {
         e.preventDefault();
         try {
-            await axios.post("http://localhost:3002/api/auth/signup", {
+            await axios.post("https://zerodha-pro.onrender.com/api/auth/signup", {
                 name,
                 email,
                 password
