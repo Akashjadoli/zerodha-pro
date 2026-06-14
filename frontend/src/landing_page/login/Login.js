@@ -15,7 +15,8 @@ function Login() {
                 password
             });
             localStorage.setItem("token", res.data.token);
-            window.location.href = "http://localhost:3001";
+            window.location.href = "https://zerodha-pro-abyg.vercel.app";
+
         } catch (err) {
             alert("Invalid email or password!");
         }
