@@ -19,7 +19,7 @@ const Menu = () => {
 
   return (
     <div className="menu-container">
-      <a href="http://localhost:3000">
+      <a href="https://zerodha-pro-o7fx.vercel.app">
          <img src="logo.png" style={{ width: "60px" }} />
       </a>
       <div className="menus">
