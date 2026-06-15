@@ -1,27 +1,30 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 function Signup() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     const handleSignup = async (e) => {
-        e.preventDefault();
-        try {
-            await axios.post("https://zerodha-pro.onrender.com/api/auth/signup", {
+    e.preventDefault();
+    try {
+        const res = await axios.post(
+            "https://zerodha-pro.onrender.com/api/auth/signup",
+            {
                 name,
                 email,
                 password
-            });
-            alert("Account created! Please login.");
-            navigate("/login");
-        } catch (err) {
-            alert("Email already exists!");
-        }
-    };
+            }
+        );
+        localStorage.setItem("token", res.data.token);
+        window.location.href = "https://zerodha-pro-abyg.vercel.app";
+    } catch (err) {
+        alert("Email already exists!");
+    }
+};
 
     return (
         <div style={{
