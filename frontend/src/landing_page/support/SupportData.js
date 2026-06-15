@@ -11,7 +11,7 @@ const supportData = [
     ],
   },
   {
-    title: "Your Zerodha Account",
+    title: "Your TradeSphere Account",
     links: [
       "Your Profile",
       "Account modification",

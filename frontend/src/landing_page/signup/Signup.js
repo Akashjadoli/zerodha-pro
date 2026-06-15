@@ -40,7 +40,7 @@ function Signup() {
                 padding: "60px",
             }}>
                 <h1 style={{ color: "#ff6600", fontSize: "28px", marginBottom: "8px" }}>
-                    🔺 Zerodha
+                    🔺 TradeSphere
                 </h1>
                 <h2 style={{ fontSize: "24px", marginBottom: "8px", color: "#333" }}>Create your account</h2>
                 <p style={{ color: "#888", marginBottom: "32px" }}>
