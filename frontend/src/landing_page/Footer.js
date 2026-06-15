@@ -10,7 +10,7 @@ function Footer() {
                     <p>&copy; 2010 - 2026, TradeSphere Broking Ltd.<br/>All rights reserved.</p>
                 </div>
                 <div className='col'>
-                    <p className='fs-5'>Account</p>
+                    <p className='fs-5'>Accounts</p>
                     <a href="" style={{textDecoration:"none", color:"#555555", display:"block", lineHeight:"2.2"}}>Open demat account </a>
                     
                     <a href="" style={{textDecoration:"none", color:"#555555", display:"block", lineHeight:"2.2"}}>Minor demat account </a>
