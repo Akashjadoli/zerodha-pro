@@ -6,7 +6,7 @@ function Footer() {
         <div className='container border-top mt-5' >
             <div className='row'>
                 <div className='col'>
-                    <img src='media/images/tradeLogo.png' style={{width:"50%"}}/>
+                    <img src='media/images/TradeLogo.png' style={{width:"50%"}}/>
                     <p>&copy; 2010 - 2026, TradeSphere Broking Ltd.<br/>All rights reserved.</p>
                 </div>
                 <div className='col'>
